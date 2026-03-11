@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>João Guilherme | Dev Front-End</title>
+
+<meta name="description" content="Portfólio de João Guilherme, desenvolvedor Front-End focado em HTML, CSS e JavaScript.">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="boot-screen">
+
+  <div class="boot-terminal">
+
+    <p>Inicializando sistema...</p>
+    <p>Carregando módulos...</p>
+    <p>Conectando interface...</p>
+    <p>Acesso autorizado.</p>
+
+  </div>
+
+</div>
+
+<div id="particles-js"></div>
+<div class="cursor"></div>
+<canvas id="matrix"></canvas>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+<div class="nav-container">
+
+<h2 class="logo">João.dev</h2>
+
+<div class="menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<ul class="nav-links" id="nav-links">
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#projetos">Projetos</a></li>
+<li><a href="#tecnologias">Tecnologias</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+
+</div>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<header class="hero">
+
+<div class="container">
+
+<h1>João Guilherme Laurencio</h1>
+
+<h2><span id="digitando"></span></h2>
+
+<p>Construo coisas que gostaria de encontrar pela web.</p>
+
+<a href="#projetos" class="btn">Ver Projetos</a>
+
+<div class="social">
+
+<a href="https://github.com/cr1pt0nz" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+<a href="https://linkedin.com/in/cr1pt0nz" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- ================= SOBRE ================= -->
+
+<section id="sobre" class="sobre">
+
+<div class="container">
+
+<h2>Sobre Mim</h2>
+
+<p>
+Sou estudante de Análise e Desenvolvimento de Sistemas, focado em Front-End.
+Atualmente aplico HTML, CSS e JavaScript na construção de projetos práticos
+para consolidar minha base técnica e evoluir profissionalmente.
+</p>
+
+</div>
+
+</section>
+
+<!-- ================= TERMINAL ================= -->
+
+<section class="terminal">
+
+<div class="container">
+
+<h2>Terminal do Desenvolvedor</h2>
+
+<div class="terminal-box">
+
+<div id="terminal-output"></div>
+
+<div class="terminal-input">
+
+<span class="prompt">joao@dev:~$</span>
+
+<input 
+type="text"
+id="terminal-command"
+autocomplete="off"
+placeholder="Digite um comando (help)"
+>
+
+</div>
+
+<div class="terminal-sugestoes">
+
+<span data-cmd="help">help</span>
+<span data-cmd="skills">skills</span>
+<span data-cmd="projects">projects</span>
+<span data-cmd="about">about</span>
+<span data-cmd="contact">contact</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= TECNOLOGIAS ================= -->
+
+<section id="tecnologias" class="tecnologias">
+
+<h2>Tecnologias</h2>
+
+<div class="tech-container">
+
+<div class="tech">
+<i class="fa-brands fa-html5"></i>
+<p>HTML5</p>
+</div>
+
+<div class="tech">
+<i class="fa-brands fa-css3-alt"></i>
+<p>CSS3</p>
+</div>
+
+<div class="tech">
+<i class="fa-brands fa-js"></i>
+<p>JavaScript</p>
+</div>
+
+<div class="tech">
+<i class="fa-brands fa-react"></i>
+<p>React</p>
+</div>
+
+<div class="tech">
+<i class="fa-brands fa-git-alt"></i>
+<p>Git</p>
+</div>
+
+<div class="tech">
+<i class="fa-brands fa-github"></i>
+<p>GitHub</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PROJETOS ================= -->
+
+<section id="projetos" class="projetos">
+
+<div class="container">
+
+<h2>Projetos</h2>
+
+<div class="projetos-grid">
+
+<div class="card-projeto">
+
+<img src="img/jotatechpay.png.jpg" alt="Projeto jotatech Pay">
+
+<h3>Jotatech Pay</h3>
+
+<p>Landing page futurista para pagamentos digitais.</p>
+
+<div class="botoes-projeto">
+<a href="https://cr1pt0nz.github.io/Jotatech-Pay/" target="_blank">Ver Projeto</a>
+<a href="https://github.com/cr1pt0nz/Jotatech-Pay" target="_blank">Código</a>
+</div>
+
+</div>
+
+<div class="card-projeto">
+
+<img src="img/aumento.png.jpg" alt="Projeto Aumento de Salário">
+
+<h3>Aumento de Salário</h3>
+
+<p>Simulação divertida de pedido de aumento usando programação.</p>
+
+<div class="botoes-projeto">
+<a href="https://cr1pt0nz.github.io/Aumento-de-sal-rio-" target="_blank">Ver Projeto</a>
+<a href="https://github.com/cr1pt0nz/Aumento-de-sal-rio-" target="_blank">Código</a>
+</div>
+
+</div>
+
+<div class="card-projeto">
+
+<img src="img/senhas.png.jpg" alt="Gerador de Senhas">
+
+<h3>Gerador de Senhas</h3>
+
+<p>Ferramenta para criar senhas seguras rapidamente.</p>
+
+<div class="botoes-projeto">
+<a href="https://cr1pt0nz.github.io/Gerador-de-Senhas/" target="_blank">Ver Projeto</a>
+<a href="https://github.com/cr1pt0nz/Gerador-de-Senhas" target="_blank">Código</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTATO ================= -->
+
+<section id="contato" class="contato">
+
+<div class="container">
+
+<h2>Contato</h2>
+
+<p>Email: guilhermejoaolau@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/cr1pt0nz</p>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+<p>© 2026 João Guilherme Laurencio</p>
+
+<div class="footer-social">
+
+<a href="https://github.com/cr1pt0nz" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+<a href="https://linkedin.com/in/cr1pt0nz" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+</div>
+
+</footer>
+
+<button id="topo">↑</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
